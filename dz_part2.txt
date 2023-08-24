@@ -1,0 +1,27 @@
+1. cd ~
+2. mkdir test3
+   cd test3
+   touch {4.txt,5.txt,6.txt}
+3 - .sh скрипт
+	for i in {1..4}
+		do
+   		echo "row${i}" >> ~/test3/4.txt
+   		echo "row${i}" >> ~/test3/5.txt
+   		echo "row${i}" >> ~/test3/6.txt
+	done
+
+4 grep "row2" ~/test3/5.txt
+5 grep -rl "row" ~/test3
+6 grep -c "row" ~/test3/6.txt
+7 find ~/test3 -name "5.txt"
+8 find ~/test3 -type f -name "5.txt" -delete
+9 echo "test" > ~/test3/4.txt
+10 sed -i -e 's/test/fail/g' ~/test3/4.txt
+11 echo "test" >> ~/test3/4.txt
+12 in CMD - tasklist
+   in PowerShell- Get-Process
+13 taskkill /PID 666
+14 ping artsiomrusau.com
+15 ping artsiomrusau.com -n 5
+16 curl -X "GET" "https://petstore.swagger.io/v2/pet/1" -H "accept: application/json"
+17 curl -X "POST" "https://petstore.swagger.io/v2/user" -H "accept: application/json" -H "Content-Type: application/json" -d "{\"id\": 0,\"username\": \"login\",\"firstName\": \"fName\",\"lastName\": \"lName\",\"email\": \"mail@mail.org\",\"password\": \"12345\",\"phone\": \"12345\",\"userStatus\": 0}"

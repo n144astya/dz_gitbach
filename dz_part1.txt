@@ -1,0 +1,40 @@
+1. cd ~
+2. pwd
+3. mkdir test1
+4. cd test1
+5. touch 1.txt
+   touch 2.txt
+   touch 3.txt
+6. ls
+7. cd
+8. mkdir test2
+9. rmdir test2
+10. rm 2.txt > /Documents/test_repo/dz_gitbach
+11. mkdir test3
+    cd test3
+    touch 123.txt
+    touch 789.txt
+12. cd ..
+    rm -rf test3
+13. mkdir test4
+14. mv  ~/Documents/test_repo/dz_gitbach/1.txt ~/test4
+    mv  ~/Documents/test_repo/dz_gitbach/3.txt ~/test4
+15. cd test4
+    echo line>1.txt
+    echo line>>1.txt
+    echo line>>1.txt
+16. cat 1.txt
+17. echo line>3.txt
+    echo line>>3.txt
+    echo line>>3.txt
+18. cat 1.txt 3.txt
+19. nano 1.txt
+    Alt+T 
+    Ввести любые значения
+    Ctrl + O
+    Ctrl + X
+    
+
+
+
+
