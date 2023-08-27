@@ -1,0 +1,18 @@
+1. Открываем профиль в github
+2. Заходим во вкладку Respositories
+3. Нажимаем кнопку "New"
+4. В окне "Create a new repository"  в окошке "Repository name" вводим те же данные что и в окошке "Owner".
+5. В  radio button выбираем Public
+6. В initialize this repository with: проставляем галочку в Chekbox "Add  readme file"
+7. Нажимаем Create repository
+
+Клонирование респозитория на компьютер:
+1. Заходим в респозиторий
+2. Нажимаем нажимаем по castom select "Code"
+3. Выбираем вкладку SSH и копируем URL
+4. Открываем Visual Studio Code
+5. В Fixed Sidebar выбираем Source Control  и выбираем Clone Repository 
+6. В открывшейся адресной строке вводим скопированный URL
+7. Указываем путь к папке на компьютере где будет храниться репозиторий
+8. Нажимаем Select as Repository Destination
+9. В диалоговом окне выбираем команду Open
